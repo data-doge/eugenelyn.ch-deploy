@@ -1,0 +1,9 @@
+[submodule "eugenelyn.ch"]
+	path = eugenelyn.ch
+	url = https://github.com/data-doge/eugenelyn.ch
+[submodule "pages/pigeon"]
+	path = pages/pigeon
+	url = https://github.com/data-doge/pigeon
+[submodule "pages/notes"]
+	path = pages/notes
+	url = https://github.com/data-doge/notes
