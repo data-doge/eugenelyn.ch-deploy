@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "node build.js && surge dist",
+    "deploy": "git submodule foreach git pull origin master && node build.js && surge dist",
     "postinstall": "node postinstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
