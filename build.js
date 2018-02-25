@@ -1,4 +1,3 @@
-const { removeSync } = require('remove')
 const { exec } = require('child_process')
 const { readdirSync } = require('fs')
 
