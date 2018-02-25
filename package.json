@@ -1,0 +1,18 @@
+{
+  "name": "eugenelyn.ch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node build.js && surge dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "data-doge <eugene@enspiral.com> (http://fuckafucka.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "surge": "^0.19.0"
+  },
+  "dependencies": {
+    "remove": "^0.1.5"
+  }
+}
